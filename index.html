@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Module 5 Project</title>
   </head>
   <body>
@@ -17,59 +19,62 @@
 
       <div class="row">
         <div class="col">
-          <button class="btn btn-success btn-block">JavaScript</button>
+          <button class="btn btn-success btn-block js">JavaScript</button>
         </div>
         <div class="col">
-          <button class="btn btn-success btn-block">jQuery</button>
+          <button class="btn btn-success btn-block jq">jQuery</button>
         </div>
         <div class="col">
-          <button class="btn btn-success btn-block">Bootstrap</button>
+          <button class="btn btn-success btn-block bs">Bootstrap</button>
         </div>
       </div>
 
       <div class="row">
         <div class="col">
-          <button class="btn btn-warning btn-block" onclick="showQuestion('jsCat', 100)">$100</button>
+          <button class="btn btn-warning btn-block js" onclick="showQuestion('jsCat', 100)">$100</button>
         </div>
         <div class="col">
-          <button class="btn btn-warning btn-block" onclick="showQuestion('jqCat', 100)">$100</button>
+          <button class="btn btn-warning btn-block jq" onclick="showQuestion('jqCat', 100)">$100</button>
         </div>
         <div class="col">
-          <button class="btn btn-warning btn-block" onclick="showQuestion('bsCat', 100)">$100</button>
+          <button class="btn btn-warning btn-block bs" onclick="showQuestion('bsCat', 100)">$100</button>
         </div>
       </div>
 
       <div class="row">
         <div class="col">
-          <button class="btn btn-primary btn-block" onclick="showQuestion('jsCat', 200)">$200</button>
+          <button class="btn btn-primary btn-block js" onclick="showQuestion('jsCat', 200)">$200</button>
         </div>
         <div class="col">
-          <button class="btn btn-primary btn-block" onclick="showQuestion('jqCat', 200)">$200</button>
+          <button class="btn btn-primary btn-block jq" onclick="showQuestion('jqCat', 200)">$200</button>
         </div>
         <div class="col">
-          <button class="btn btn-primary btn-block" onclick="showQuestion('bsCat', 200)">$200</button>
+          <button class="btn btn-primary btn-block bs" onclick="showQuestion('bsCat', 200)">$200</button>
         </div>
       </div>
 
       <div class="row">
         <div class="col">
-          <button class="btn btn-danger btn-block" onclick="showQuestion('jsCat', 300)">$300</button>
+          <button class="btn btn-danger btn-block js" onclick="showQuestion('jsCat', 300)">$300</button>
         </div>
         <div class="col">
-          <button class="btn btn-danger btn-block" onclick="showQuestion('jqCat', 300)">$300</button>
+          <button class="btn btn-danger btn-block jq" onclick="showQuestion('jqCat', 300)">$300</button>
         </div>
         <div class="col">
-          <button class="btn btn-danger btn-block" onclick="showQuestion('bsCat', 300)">$300</button>
+          <button class="btn btn-danger btn-block bs" onclick="showQuestion('bsCat', 300)">$300</button>
         </div>
       </div>
 
       <div class="row">
-        
+        <div class="col">
+          <h1 id="score">Score: $0</h1>
+        </div>
       </div>
+
     </div>
 
     
-
+    
 	  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
